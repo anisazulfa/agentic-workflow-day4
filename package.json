@@ -1,0 +1,19 @@
+{
+  "name": "agentic-workflow-day4",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@anvia/core": "^1.21.0",
+    "@anvia/openai": "^1.3.8"
+  }
+}
